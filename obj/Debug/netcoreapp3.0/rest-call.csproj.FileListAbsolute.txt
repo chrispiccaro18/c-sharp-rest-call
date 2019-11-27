@@ -1,0 +1,11 @@
+/home/chrispiccaro/projects/c-sharp/rest-call/bin/Debug/netcoreapp3.0/rest-call
+/home/chrispiccaro/projects/c-sharp/rest-call/bin/Debug/netcoreapp3.0/rest-call.deps.json
+/home/chrispiccaro/projects/c-sharp/rest-call/bin/Debug/netcoreapp3.0/rest-call.runtimeconfig.json
+/home/chrispiccaro/projects/c-sharp/rest-call/bin/Debug/netcoreapp3.0/rest-call.runtimeconfig.dev.json
+/home/chrispiccaro/projects/c-sharp/rest-call/bin/Debug/netcoreapp3.0/rest-call.dll
+/home/chrispiccaro/projects/c-sharp/rest-call/bin/Debug/netcoreapp3.0/rest-call.pdb
+/home/chrispiccaro/projects/c-sharp/rest-call/obj/Debug/netcoreapp3.0/rest-call.csprojAssemblyReference.cache
+/home/chrispiccaro/projects/c-sharp/rest-call/obj/Debug/netcoreapp3.0/rest-call.AssemblyInfoInputs.cache
+/home/chrispiccaro/projects/c-sharp/rest-call/obj/Debug/netcoreapp3.0/rest-call.AssemblyInfo.cs
+/home/chrispiccaro/projects/c-sharp/rest-call/obj/Debug/netcoreapp3.0/rest-call.dll
+/home/chrispiccaro/projects/c-sharp/rest-call/obj/Debug/netcoreapp3.0/rest-call.pdb
