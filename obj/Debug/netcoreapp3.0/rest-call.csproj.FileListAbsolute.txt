@@ -9,3 +9,7 @@
 /home/chrispiccaro/projects/c-sharp/rest-call/obj/Debug/netcoreapp3.0/rest-call.AssemblyInfo.cs
 /home/chrispiccaro/projects/c-sharp/rest-call/obj/Debug/netcoreapp3.0/rest-call.dll
 /home/chrispiccaro/projects/c-sharp/rest-call/obj/Debug/netcoreapp3.0/rest-call.pdb
+/home/chrispiccaro/projects/c-sharp/rest-call/bin/Debug/netcoreapp3.0/System.Net.Http.Formatting.dll
+/home/chrispiccaro/projects/c-sharp/rest-call/bin/Debug/netcoreapp3.0/Newtonsoft.Json.dll
+/home/chrispiccaro/projects/c-sharp/rest-call/bin/Debug/netcoreapp3.0/Newtonsoft.Json.Bson.dll
+/home/chrispiccaro/projects/c-sharp/rest-call/obj/Debug/netcoreapp3.0/rest-call.csproj.CopyComplete

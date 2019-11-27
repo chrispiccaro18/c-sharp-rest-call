@@ -10,7 +10,7 @@ namespace rest_call
     public static void InitializeClient()
         {
             ApiClient = new HttpClient();
-            // ApiClient.BaseAddress = new Uri("https://swapi.co/api");
+            // ApiClient.BaseAddress = new Uri("https://swapi.co/api/starships");
             ApiClient.DefaultRequestHeaders.Accept.Clear();
             ApiClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         }

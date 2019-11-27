@@ -15,7 +15,7 @@ namespace rest_call
         if (response.IsSuccessStatusCode)
         {
           StarshipModel starship = await response.Content.ReadAsAsync<StarshipModel>();
-
+          Console.WriteLine(starship.Starship_Class);
           return starship;
         }
         else
