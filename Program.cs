@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
-using System.Net.Http.Headers;
-using System.Collections.Generic;
 
 namespace rest_call
 {
@@ -23,14 +20,15 @@ namespace rest_call
             {
                 SWApi swapi = new SWApi();
 
-                StarshipModel starship = null;
-                starship = await swapi.GetStarshipAsync(client, 15);
-                starship.ShowStarship();
+                // StarshipModel starship = null;
+                // starship = await swapi.GetStarshipAsync(client, 15);
+                // starship.ShowStarship();
+                // Console.WriteLine(starship.ShowStarshipNumber());
 
                 StarshipsModel starshipList = new StarshipsModel();
                 starshipList.starships = await swapi.GetAllStarshipsAsync(client);
                 starshipList.SortStarshipsAlphabetically();
-                starshipList.starships.ForEach(starship => starship.ShowStarship());
+                starshipList.starships.ForEach(starship => Console.WriteLine(starship.ShowStarshipNumber()));
             }
             catch (Exception e)
             {
