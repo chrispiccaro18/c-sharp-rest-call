@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace rest_call
+namespace rest_call.Models
 {
 public class StarshipsResultModel
 {

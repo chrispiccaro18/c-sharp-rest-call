@@ -2,6 +2,7 @@
 using System.Net.Http;
 using System.Threading.Tasks;
 using rest_call.Services;
+using rest_call.Models;
 
 namespace rest_call
 {

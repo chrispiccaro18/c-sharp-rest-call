@@ -1,7 +1,7 @@
 using System;
 using System.Text.RegularExpressions;
 
-namespace rest_call
+namespace rest_call.Models
 {
   public class StarshipModel
   {
