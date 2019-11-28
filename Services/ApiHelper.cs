@@ -2,7 +2,7 @@ using System;
 using System.Net.Http;
 using System.Net.Http.Headers;
 
-namespace rest_call
+namespace rest_call.Services
 {
   public static class ApiHelper
   {

@@ -3,7 +3,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 
-namespace rest_call
+namespace rest_call.Services
 {
   public class SWApi
   {

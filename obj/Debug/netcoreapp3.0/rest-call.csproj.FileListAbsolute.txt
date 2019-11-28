@@ -13,3 +13,12 @@
 /home/chrispiccaro/projects/c-sharp/rest-call/bin/Debug/netcoreapp3.0/Newtonsoft.Json.dll
 /home/chrispiccaro/projects/c-sharp/rest-call/bin/Debug/netcoreapp3.0/Newtonsoft.Json.Bson.dll
 /home/chrispiccaro/projects/c-sharp/rest-call/obj/Debug/netcoreapp3.0/rest-call.csproj.CopyComplete
+/home/chrispiccaro/projects/c-sharp/rest-call/bin/Debug/netcoreapp3.0/Microsoft.Azure.CognitiveServices.Search.ImageSearch.dll
+/home/chrispiccaro/projects/c-sharp/rest-call/bin/Debug/netcoreapp3.0/Microsoft.Azure.Search.dll
+/home/chrispiccaro/projects/c-sharp/rest-call/bin/Debug/netcoreapp3.0/Microsoft.Azure.Search.Common.dll
+/home/chrispiccaro/projects/c-sharp/rest-call/bin/Debug/netcoreapp3.0/Microsoft.Azure.Search.Data.dll
+/home/chrispiccaro/projects/c-sharp/rest-call/bin/Debug/netcoreapp3.0/Microsoft.Azure.Search.Service.dll
+/home/chrispiccaro/projects/c-sharp/rest-call/bin/Debug/netcoreapp3.0/Microsoft.Rest.ClientRuntime.dll
+/home/chrispiccaro/projects/c-sharp/rest-call/bin/Debug/netcoreapp3.0/Microsoft.Rest.ClientRuntime.Azure.dll
+/home/chrispiccaro/projects/c-sharp/rest-call/bin/Debug/netcoreapp3.0/Microsoft.Spatial.dll
+/home/chrispiccaro/projects/c-sharp/rest-call/bin/Debug/netcoreapp3.0/Microsoft.WindowsAzure.Storage.dll

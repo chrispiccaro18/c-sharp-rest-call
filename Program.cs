@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Net.Http;
 using System.Threading.Tasks;
+using rest_call.Services;
 
 namespace rest_call
 {
@@ -19,15 +20,18 @@ namespace rest_call
             try
             {
                 SWApi swapi = new SWApi();
+                StarshipImageService imageService = new StarshipImageService();
 
-                // StarshipModel starship = null;
-                // starship = await swapi.GetStarshipAsync(client, 15);
-                // starship.ShowStarship();
+                StarshipModel starship = null;
+                starship = await swapi.GetStarshipAsync(client, 15);
+                starship.ShowStarship();
+                string starshipUrl = await imageService.GetImageUrl(starship.Name);
+                Console.WriteLine(starshipUrl);
 
-                StarshipsModel starshipList = new StarshipsModel();
-                starshipList.starships = await swapi.GetAllStarshipsAsync(client);
-                starshipList.SortStarshipsAlphabetically();
-                starshipList.starships.ForEach(starship => Console.WriteLine(starship.ShowStarshipNumber()));
+                // StarshipsModel starshipList = new StarshipsModel();
+                // starshipList.starships = await swapi.GetAllStarshipsAsync(client);
+                // starshipList.SortStarshipsAlphabetically();
+                // starshipList.starships.ForEach(starship => Console.WriteLine(starship.ShowStarshipNumber()));
             }
             catch (Exception e)
             {
