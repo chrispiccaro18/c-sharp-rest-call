@@ -9,7 +9,7 @@ namespace rest_call
 
     public void ShowStarship()
     {
-        Console.WriteLine($"Name: {this.Name}\tClass: " +
+        Console.WriteLine($"Name: {this.Name} | Class: " +
             $"{this.Starship_Class}");
     }
   }

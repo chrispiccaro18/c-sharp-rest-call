@@ -3,16 +3,21 @@ using System.Collections.Generic;
 
 namespace rest_call
 {
-public class StarshipsModel
-{
-    public int Count { get; set; }
-    public string Next { get; set; }
-    public object Previous { get; set; }
-    public List<StarshipModel> Results { get; set; }
-    public void ShowStarships()
-    {
-        this.Results.ForEach((starship) => Console.WriteLine(starship.Name));
-    }
-}
+  public class StarshipsModel
+  {
+    public List<StarshipModel> starships { get; set; }
 
+    public List<StarshipModel> SortStarshipsAlphabetically()
+    {
+      this.starships.Sort(delegate(StarshipModel x, StarshipModel y)
+        {
+            if (x.Name == null && y.Name == null) return 0;
+            else if (x.Name == null) return -1;
+            else if (y.Name == null) return 1;
+            else return x.Name.CompareTo(y.Name);
+        });
+
+      return starships;
+    }
+  }
 }

@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Net;
 using System.Net.Http;
-using System.Net.Http.Headers;
 using System.Threading.Tasks;
+using System.Net.Http.Headers;
+using System.Collections.Generic;
 
 namespace rest_call
 {
     class Program
     {
-        // static HttpClient client = new HttpClient();
         static HttpClient client = ApiHelper.ApiClient;
 
         static void Main()
@@ -24,13 +24,13 @@ namespace rest_call
                 SWApi swapi = new SWApi();
 
                 StarshipModel starship = null;
-                starship = await swapi.GetStarshipAsync(15, client);
+                starship = await swapi.GetStarshipAsync(client, 15);
                 starship.ShowStarship();
 
-                StarshipsModel starships = null;
-                starships = await swapi.GetStarshipsAsync(client);
-                starships.ShowStarships();
-                
+                StarshipsModel starshipList = new StarshipsModel();
+                starshipList.starships = await swapi.GetAllStarshipsAsync(client);
+                starshipList.SortStarshipsAlphabetically();
+                starshipList.starships.ForEach(starship => starship.ShowStarship());
             }
             catch (Exception e)
             {
