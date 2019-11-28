@@ -22,8 +22,10 @@ namespace rest_call
 
     public void ShowStarship()
     {
-      Console.WriteLine($"Name: {this.Name} | Class: " +
-          $"{this.Starship_Class}");
+      foreach(var prop in this.GetType().GetProperties())
+        {
+          Console.WriteLine($"{prop.Name} = {prop.GetValue(this, null)}");
+        }
     }
 
     public int ShowStarshipNumber()

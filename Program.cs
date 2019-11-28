@@ -23,7 +23,6 @@ namespace rest_call
                 // StarshipModel starship = null;
                 // starship = await swapi.GetStarshipAsync(client, 15);
                 // starship.ShowStarship();
-                // Console.WriteLine(starship.ShowStarshipNumber());
 
                 StarshipsModel starshipList = new StarshipsModel();
                 starshipList.starships = await swapi.GetAllStarshipsAsync(client);
