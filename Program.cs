@@ -24,7 +24,7 @@ namespace rest_call
                 StarshipImageService imageService = new StarshipImageService();
 
                 StarshipModel starship = null;
-                starship = await swapi.GetStarshipAsync(client, 15);
+                starship = await swapi.GetStarshipAsync(client, 12);
                 starship.ShowStarship();
                 string starshipImageUrl = await imageService.GetImageUrl(starship.Name);
                 Console.WriteLine(starshipImageUrl);
